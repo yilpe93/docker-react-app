@@ -178,8 +178,10 @@ AWS 리소스에 대한 엑세스를 안전하게 제어할 수 있는 웹 서�
 
   # ...
 
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
+  deploy:
+    # ...
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: AWS_SECRET_ACCESS_KEY
   ```
 
 ---
